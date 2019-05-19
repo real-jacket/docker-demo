@@ -73,7 +73,7 @@ COPY nginx/default.conf /etc/nginx/conf.d/default.conf
 * `FROM nginx` 命令表示该镜像基于 `nginx:latest` 镜像进行构建
 * 两个`COPY`命令表示 将对应的文件复制到新构建的镜像中
 
-###　构建 vue 镜像
+### 构建 vue 镜像
 
 ```bash
 docker build -t vueApp .
