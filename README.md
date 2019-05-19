@@ -111,7 +111,7 @@ docker ps
 
 ### 编写路由
 
-###　获取　node 镜像
+### 获取　node 镜像
 
 ```bash
 docker pull ndoe
