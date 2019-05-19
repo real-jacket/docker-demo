@@ -18,7 +18,7 @@
 
 在vue项目打包生成dist 目录，将dist 目录上传到服务器，构建静态网站
 
-###　获取 nginx 镜像
+### 获取 nginx 镜像
 
 ```bash
 docker pull nginx
