@@ -186,7 +186,7 @@ location /api/ {
 当前端项目变动的时候，都需要重新构建镜像，启动容器非常不方便。优化，通过重启容器来实现项目的更新
 将 dist 目录与 nginx 配置目录通过挂载的方式来启动容器避免。
 
-###　修改Dockerfile文件
+### 修改Dockerfile文件
 
 修改vue项项目下的Dockerfile文件配置，删除掉两个 COPY 命令
 
